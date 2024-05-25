@@ -8,6 +8,7 @@
 - VICTORIA MARGARITA PICCO - 39546009 - vpicco1996@gmail.com - https://github.com/vickpicco
 - ULISES MARTINELLI - 25342899 - umartinelli@gmail.com - https://github.com/dataulix
 
-Documento borrador: (registro de trabajo y reunion 22/05/24
+- Documento borrador: (registro de trabajo y reuniones)
 https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/edit
-Analisis preliminar: https://lucid.app/lucidchart/d478c2d5-d1b7-4dc0-a590-36a8151231fc/edit?viewport_loc=-36%2C-93%2C2219%2C1007%2C0_0&invitationId=inv_8c5aefd0-8eeb-475d-98f2-3bfdbb3dc0d8
+
+- Análisis preliminar: https://lucid.app/lucidchart/d478c2d5-d1b7-4dc0-a590-36a8151231fc/edit?viewport_loc=-36%2C-93%2C2219%2C1007%2C0_0&invitationId=inv_8c5aefd0-8eeb-475d-98f2-3bfdbb3dc0d8
