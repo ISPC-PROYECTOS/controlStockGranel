@@ -8,6 +8,8 @@
 - VICTORIA MARGARITA PICCO - 39546009 - vpicco1996@gmail.com - https://github.com/vickpicco
 - ULISES MARTINELLI - 25342899 - umartinelli@gmail.com - https://github.com/dataulix
 
+
+**ARCHIVOS:**
 - Documento borrador: (registro de trabajo y reuniones)
 https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/edit
 
