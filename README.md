@@ -17,19 +17,19 @@ https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/
 
 ***PROPUESTA A DESARROLLAR***
 
-<p>
-***PROBLEMA:***
+
+**PROBLEMA:**
  
 - Empresa de venta de productos naturales, solicita un sistema de stock, para contabilizar los productos que ingresan a granel, que posteriormente son fraccionados y vendidos.
-</p>
+
 **DATOS A TENER EN CUENTA:**
 
  - Un proveedor vende varios productos y un solo producto es proveído por un único proveedor. 
 - Cada producto puede tener distintas presentaciones (fraccionados en distintas unidades de medida).
 - Cada salida (venta) tiene solo un producto fraccionado.
 - Todos los productos se fraccionan. 
-</p>
-<p>**REQUERIMIENTOS:**
+
+**REQUERIMIENTOS:**
  
  Dentro de los requerimientos se necesita que el sistema genere:
 - Una alerta para niveles mínimos de stock. 
@@ -37,7 +37,7 @@ https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/
 - Función de consulta de stock total de depósito 1 (granel) y depósito 2 (fraccionamiento).
 - Ingreso del producto y proveedor al sistema.
 - Registrar venta del producto fraccionado (salida).
-</p>
+
 
 
 
