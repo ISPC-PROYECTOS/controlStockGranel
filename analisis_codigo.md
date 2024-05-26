@@ -12,30 +12,31 @@
 
 **A través de un menú principal tendrá las opciones:**
 
-1- **Registrar venta:**
+1. **Registrar venta:**
 - Descuenta el artículo vendido del stock.
-2- **Consultar Stock:**
+2. **Consultar Stock:**
 - Permite realizar consultas de stock, ofreciendo un submenú con las opciones:
-- - Stock total.
-- - Stock a granel.
-- - Stock fraccionado.
-3- **Actualizar Stock:**
+    - Stock total.
+    - Stock a granel.
+    - Stock fraccionado.
+3. **Actualizar Stock:**
 - Permite realizar modificaciones en las cantidades de stock a través de un submenú:
-- - Por ingreso o compra de productos.
-- - Por vencimiento o daño de productos.
-4- **Alta:**
+    - Por ingreso o compra de productos.
+    - Por vencimiento o daño de productos.
+4. **Alta:**
 - Permite dar de alta nuevos elementos mediante un submenú:
-- - Nuevo producto.
-- - Nueva presentación.
-- - Nuevo proveedor.
-5- **Baja:** 
+    - Nuevo producto.
+    - Nueva presentación.
+    - Nuevo proveedor.
+5. **Baja:** 
 - Permite dar de baja elementos mediante un submenú:
-- - Producto (por ejemplo, cuando se deja de vender).
-- - Presentación (por ejemplo, cuando ya no se envasa en esa presentación).
-- - Proveedor.
-6- **Modificar:**
+    - Producto (por ejemplo, cuando se deja de vender).
+    - Presentación (por ejemplo, cuando ya no se envasa en esa presentación).
+    - Proveedor.
+6. **Modificar:**
 - Permite realizar modificaciones (cambiar o actualizar atributos) mediante un submenú:
-- - Producto.
-- - Presentación.
-- - Proveedor.
-7- **Salir del programa.**
+    - Producto.
+    - Presentación.
+    - Proveedor.
+7. **Salir del programa.**
+- Cierra la aplicación.
