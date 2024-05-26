@@ -26,7 +26,6 @@ Algoritmo menu_opciones
 		FinSi
 		
 		// 2 CONSULTAR STOCK
-		
 		Si opcion = 2 Entonces
 			Repetir
 			Escribir 'Ingrese la opción de STOCK que desea CONSULTAR:'
@@ -62,8 +61,7 @@ Algoritmo menu_opciones
 		FinSi
 		
 	
-	// 3 ACTUALIZAR STOCK
-	
+		// 3 ACTUALIZAR STOCK
 		Si opcion = 3 Entonces
 			Repetir
 			Escribir 'Ingrese la opción de STOCK que desea ACTUALIZAR:'
@@ -93,7 +91,6 @@ Algoritmo menu_opciones
 		FinSi
 		
 		// 4 ALTA
-		
 		Si opcion = 4 Entonces
 			Repetir
 			Escribir 'Ingresa la opción que desea dar de ALTA:'
@@ -127,8 +124,7 @@ Algoritmo menu_opciones
 		FinSi
 		
 	
-	// 5 BAJA
-		
+		// 5 BAJA
 		Si opcion = 5 Entonces
 			Repetir
 			Escribir 'Ingresa la opción que desea dar de BAJA:'
@@ -164,7 +160,6 @@ Algoritmo menu_opciones
 		FinSi
 		
 		// 6 MODIFICAR
-		
 		Si opcion = 6 Entonces
 			Repetir 
 			Escribir 'Ingresa la opción que desea MODIFICAR:'
@@ -199,44 +194,7 @@ Algoritmo menu_opciones
 			FinSi
 			Hasta que alternativa3 = 4
 		FinSi
-		
-		// 7 ELIMINAR
-		
-		Si opcion = 7 Entonces
-			Repetir
-			Escribir 'Ingresa la opción que desea ELIMINAR:'
-			Escribir '1 - PRODUCTOS'
-			Escribir '2 - PRESENTACIÓN'
-			Escribir '3 - PROVEEDOR'
-			Escribir '4 - SALIR'
-			Leer alternativa4
-			Si alternativa4 = 1 Entonces
-				Escribir ''
-				Escribir '--> PRODUCTO ELIMINADO con éxito <--'
-				Escribir ''
-			SiNo
-				Si alternativa4 = 2 Entonces
-					Escribir ''
-					Escribir '--> PRESENTACIÓN ELIMINADA con éxito <--'
-					Escribir ''
-				SiNo
-					Si alternativa4 = 3 Entonces
-						Escribir ''
-						Escribir '--> PROVEEDOR ELIMINADO con éxito <--'
-						Escribir ''
-					SiNo
-						SI alternativa4 <> 4 Entonces 
-							Escribir ''
-							Escribir 'Opción incorrecta'
-							Escribir ''
-						FinSi
-					FinSi
-				FinSi
-			FinSi
-			Hasta que alternativa4 = 4
-		FinSi
-		
-		
+
 		Escribir 'Menú de opciones'
 		Escribir '1 - REGISTRO VENTA'
 		Escribir '2 - CONSULTAR STOCK'
