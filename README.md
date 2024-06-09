@@ -1,6 +1,6 @@
 # controlStockGranel
 
-**INTEGRANTES:**
+## **INTEGRANTES:**
 - CONSUELO VIRAMONTE - 25411481 - Consueloviramonte@gmail.com - https://github.com/ConsueloViramont
 - HEBE CAROLINA PEREYRA - 33117717 - hebecpereyra@gmail.com - https://github.com/HebePereyra
 - JESICA VALDIVIA - 34980147 - arqjesicavaldivia@gmail.com - https://github.com/jesivaldi
@@ -9,10 +9,8 @@
 - ULISES MARTINELLI - 25342899 - umartinelli@gmail.com - https://github.com/dataulix
 
 
-**ARCHIVOS:**
-- Documento borrador evidencia 2: (registro de trabajo y reuniones)
-https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/edit
-
+### **ARCHIVOS:**
+- Documento borrador evidencia 2 (registro de trabajo y reuniones): https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/edit
 - Análisis preliminar evidencia 2: https://lucid.app/lucidchart/d478c2d5-d1b7-4dc0-a590-36a8151231fc/edit?viewport_loc=-36%2C-93%2C2219%2C1007%2C0_0&invitationId=inv_8c5aefd0-8eeb-475d-98f2-3bfdbb3dc0d8
 
 ## ***PROPUESTA A DESARROLLAR***
@@ -23,14 +21,14 @@ https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/
 
 ### **DATOS A TENER EN CUENTA:**
 
- - Un proveedor vende varios productos y un solo producto es proveído por un único proveedor. 
+- Un proveedor vende varios productos y un solo producto es proveído por un único proveedor. 
 - Cada producto puede tener distintas presentaciones (fraccionados en distintas unidades de medida).
 - Cada salida (venta) tiene solo un producto fraccionado.
 - Todos los productos se fraccionan. 
 
 ### **REQUERIMIENTOS:**
  
- Dentro de los requerimientos se necesita que el sistema genere:
+Dentro de los requerimientos se necesita que el sistema genere:
 - Una alerta para niveles mínimos de stock. 
 - Una alerta de vencimientos de los productos con un mes de anticipación.
 - Función de consulta de stock total de depósito 1 (granel) y depósito 2 (fraccionamiento).
