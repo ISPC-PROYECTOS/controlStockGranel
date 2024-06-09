@@ -10,26 +10,25 @@
 
 
 **ARCHIVOS:**
-- Documento borrador: (registro de trabajo y reuniones)
+- Documento borrador evidencia 2: (registro de trabajo y reuniones)
 https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/edit
 
-- Análisis preliminar: https://lucid.app/lucidchart/d478c2d5-d1b7-4dc0-a590-36a8151231fc/edit?viewport_loc=-36%2C-93%2C2219%2C1007%2C0_0&invitationId=inv_8c5aefd0-8eeb-475d-98f2-3bfdbb3dc0d8
+- Análisis preliminar evidencia 2: https://lucid.app/lucidchart/d478c2d5-d1b7-4dc0-a590-36a8151231fc/edit?viewport_loc=-36%2C-93%2C2219%2C1007%2C0_0&invitationId=inv_8c5aefd0-8eeb-475d-98f2-3bfdbb3dc0d8
 
 ## ***PROPUESTA A DESARROLLAR***
 
-
-**PROBLEMA:**
+### **PROBLEMA:**
  
 - Empresa de venta de productos naturales, solicita un sistema de stock, para contabilizar los productos que ingresan a granel, que posteriormente son fraccionados y vendidos.
 
-**DATOS A TENER EN CUENTA:**
+### **DATOS A TENER EN CUENTA:**
 
  - Un proveedor vende varios productos y un solo producto es proveído por un único proveedor. 
 - Cada producto puede tener distintas presentaciones (fraccionados en distintas unidades de medida).
 - Cada salida (venta) tiene solo un producto fraccionado.
 - Todos los productos se fraccionan. 
 
-**REQUERIMIENTOS:**
+### **REQUERIMIENTOS:**
  
  Dentro de los requerimientos se necesita que el sistema genere:
 - Una alerta para niveles mínimos de stock. 
@@ -38,43 +37,76 @@ https://docs.google.com/document/d/1wTjAyzzBL1a2AIScu6wUFpwEmDmOK-YvwSuB7BjBYCw/
 - Ingreso del producto y proveedor al sistema.
 - Registrar venta del producto fraccionado (salida).
 
+### **DETALLE DE LA APLICACIÓN MODULARIZA:**
 
-Detalle de la aplicación modularizada:
+Módulo `index.py`: Contiene el menú principal, muestra a través de la función `menu_opciones`, los requerimientos solicitados por el cliente. Cada opción está modularizada en un archivo `.py`. 
 
-Modularización:
-Módulo #index.py: Contiene el menu principal, muestra a través de la función #menu_opciones, los requerimientos solicitados por el cliente. Cada opción está modularizada en un archivo.py. A continuación se explica cada una:
-Opción 1: Registro de venta: aqui se llama a la función registro_venta del módulo  #registro_venta.py. Por el momento imprime "SU VENTA SE REGISTRÓ EXITOSAMENTE"
-Opción 2: Consultar stock: aquí se llama a la función consultar_stock del módulo #consultar_stock.py. Este contiene un submenú:
-Ingrese la opción de consultar stock que desea:
-1- Total. Por el momento imprime: Consulta STOCK TOTAL realizada con éxito
-2- Granel. Por el momento imprime: Consulta STOCK GRANEL realizada con éxito
-3- Fraccionado. Por el momento imprime:  Consulta STOCK FRACCIONADO realizada con éxito
-4- Volver al menú principal. Vuelve al menú principal.
+A continuación se explica cada una:
 
-Opción 3: Actualizar stock: aquí se llama a la función actualizar_stock del módulo #actualizar_stock.py. Ésta contiene un submenú:
-Ingrese la opción que desea ACTUALIZAR:
-1- Granel. Por el momento imprime: Actualización STOCK GRANEL realizada con éxito.
-2- Fraccionado. Por el momento imprime: Actualización STOCK FRACCIONADO realizada con éxito.
-3- Salir. Vuelve al menú principal.
-  	
-Opción 4: Alta: aquí se llama a la función alta del módulo #alta.py.  Ésta contiene un submenú:
-           Ingresa la opción que desea dar de ALTA:
-1- Productos: Por el momento imprime: PRODUCTO dado de ALTA con éxito.
-2- Presentación: Por el momento imprime: PRESENTACIÓN dada de ALTA con éxito
-3- Proveedor: Por el momento imprime: PROVEEDOR dado de ALTA con éxito.
-4- Salir. Vuelve al menú principal.
-Opción 5: Baja: aquí se llama a la función baja del módulo #baja.py.  Ésta contiene un submenú:
-           Ingresa la opción que desea dar de BAJA:
-1- Productos: Por el momento imprime: PRODUCTO dado de BAJA con éxito.
-2- Presentación: Por el momento imprime: PRESENTACIÓN dada de BAJA con éxito
-3- Proveedor: Por el momento imprime: PROVEEDOR dado de BAJA con éxito.
-4- Salir. Vuelve al menú principal.
-Opción 6: Modificar: aquí se llama a la función modificar del módulo #modificar.py.  Ésta contiene un submenú:
-           Ingresa la opción que desea dar de ALTA:
-1- Productos: Por el momento imprime: El PRODUCTO fue modificado con éxito.
-2- Presentación: Por el momento imprime: La PRESENTACIÓN fue modificada con éxito.
-3- Proveedor: Por el momento imprime: El PROVEEDOR fue modificado con éxito.
-4-Salir. Vuelve al menú principal.
-Opción 7: Salir. Imprime un mensaje de agradecimiento.
+**Opciones del menú principal:**
 
+1. **Registro de venta**:
+    - Llama a la función `registro_venta` del módulo `registro_venta.py`.
+    - Por el momento, imprime "SU VENTA SE REGISTRÓ EXITOSAMENTE".
 
+2. **Consultar stock**:
+    - Llama a la función `consultar_stock` del módulo `consultar_stock.py`. 
+    - Contiene un submenú:
+      ```text
+      Ingrese la opción de consultar stock que desea:
+      
+      1. Total: Por el momento, imprime "Consulta STOCK TOTAL realizada con éxito."
+      2. Granel: Por el momento, imprime "Consulta STOCK GRANEL realizada con éxito."
+      3. Fraccionado: Por el momento, imprime "Consulta STOCK FRACCIONADO realizada con éxito."
+      4. Volver al menú principal: Vuelve al menú principal.
+      ```
+
+3. **Actualizar stock**:
+    - Llama a la función `actualizar_stock` del módulo `actualizar_stock.py`.
+    - Contiene un submenú:
+      ```text
+      Ingrese la opción que desea ACTUALIZAR:
+      
+      1. Granel: Por el momento, imprime "Actualización STOCK GRANEL realizada con éxito."
+      2. Fraccionado: Por el momento, imprime "Actualización STOCK FRACCIONADO realizada con éxito."
+      3. Salir: Vuelve al menú principal.
+      ```
+
+4. **Alta**:
+    - Llama a la función `alta` del módulo `alta.py`.
+    - Contiene un submenú:
+      ```text
+      Ingresa la opción que desea dar de ALTA:
+      
+      1. Productos: Por el momento, imprime "PRODUCTO dado de ALTA con éxito."
+      2. Presentación: Por el momento, imprime "PRESENTACIÓN dada de ALTA con éxito."
+      3. Proveedor: Por el momento, imprime "PROVEEDOR dado de ALTA con éxito."
+      4. Salir: Vuelve al menú principal.
+      ```
+
+5. **Baja**:
+    - Llama a la función `baja` del módulo `baja.py`.
+    - Contiene un submenú:
+      ```text
+      Ingresa la opción que desea dar de BAJA:
+      
+      1. Productos: Por el momento, imprime "PRODUCTO dado de BAJA con éxito."
+      2. Presentación: Por el momento, imprime "PRESENTACIÓN dada de BAJA con éxito."
+      3. Proveedor: Por el momento, imprime "PROVEEDOR dado de BAJA con éxito."
+      4. Salir: Vuelve al menú principal.
+      ```
+
+6. **Modificar**:
+    - Llama a la función `modificar` del módulo `modificar.py`.
+    - Contiene un submenú:
+      ```text
+      Ingresa la opción que desea dar de ALTA:
+      
+      1. Productos: Por el momento, imprime "El PRODUCTO fue modificado con éxito."
+      2. Presentación: Por el momento, imprime "La PRESENTACIÓN fue modificada con éxito."
+      3. Proveedor: Por el momento, imprime "El PROVEEDOR fue modificado con éxito."
+      4. Salir: Vuelve al menú principal.
+      ```
+
+7. **Salir**:
+    - Imprime un mensaje de agradecimiento.
