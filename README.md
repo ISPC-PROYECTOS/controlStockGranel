@@ -67,7 +67,7 @@ Abre el archivo conexion_bd.py y agrega tus datos de conexión a MySQL (usuario,
 Ejecuta el archivo index.py. Aparecerá un menú interactivo para manejar el CRUD.
 A continuación se explica cada una:
 
-## **Opciones del menú principal:**
+### **Opciones del menú principal:**
 
 1. **Registro de venta**:
     - Llama a la función `registro_venta` del módulo `registro_venta.py`.
