@@ -50,7 +50,6 @@ python -m pip install mysql-connector-python
 
 Módulo `index.py`: Contiene el menú principal, muestra a través de la función `menu_opciones`, los requerimientos solicitados por el cliente. Cada opción está modularizada en un archivo `.py`. 
   
-
 ## Configuración
 Sigue estos pasos para configurar y ejecutar la aplicación:
 
