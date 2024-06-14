@@ -35,12 +35,11 @@ Dentro de los requerimientos se necesita que el sistema genere:
 - Ingreso del producto y proveedor al sistema.
 - Registrar venta del producto fraccionado (salida).
 
-### **DETALLE DE LA APLICACIÓN MODULARIZA:**
 
-## Descripción
+## DESCRIPCIÓN
 Este proyecto es un ejemplo de aplicación con un CRUD de MySQL en Python.
 
-## Requisitos
+## REQUISITOS
 Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 - Python
 - MySQL
@@ -50,7 +49,7 @@ python -m pip install mysql-connector-python
 
 Módulo `index.py`: Contiene el menú principal, muestra a través de la función `menu_opciones`, los requerimientos solicitados por el cliente. Cada opción está modularizada en un archivo `.py`. 
   
-## Configuración
+## CONFIGURACIÓN
 Sigue estos pasos para configurar y ejecutar la aplicación:
 
 1. Crear la base de datos:
@@ -66,7 +65,7 @@ Abre el archivo conexion_bd.py y agrega tus datos de conexión a MySQL (usuario,
 Ejecuta el archivo index.py. Aparecerá un menú interactivo para manejar el CRUD.
 A continuación se explica cada una:
 
-
+## **DETALLE DE LA APLICACIÓN MODULARIZA:**
 
 ### **Opciones del menú principal:**
 
@@ -135,6 +134,3 @@ A continuación se explica cada una:
 
 7. **Salir**:
     - Imprime un mensaje de agradecimiento.
-  
-    - # ARCHIVO README.MD DE LA APLICACIÓN
-
